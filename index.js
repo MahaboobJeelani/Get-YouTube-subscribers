@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const dotenv = require("dotenv")
 const specs = require('./src/swagger');
 const swaggerUi = require('swagger-ui-express');
+const cors = require('cors')
 
 //configuring env
 dotenv.config();
@@ -12,6 +13,7 @@ dotenv.config();
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
+app.use(cors())
 
 // Swagger documentation route
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));

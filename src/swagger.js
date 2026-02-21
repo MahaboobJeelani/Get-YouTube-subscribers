@@ -12,7 +12,7 @@ const options = {
     },
     servers: [
       {
-        url: `${process.env.URI}`,     
+        url: `https://get-youtube-subscribers-dtim.onrender.com`,     
         description: 'Development server',
       },
     ],
