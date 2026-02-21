@@ -30,5 +30,5 @@ const port = process.env.PORT || 3000;
 const uri = process.env.URI
 app.listen(port, () => {
     console.log(`App listening on port ${port}!`)
-    console.log(`Swagger docs: ${uri}/api-docs`);
+    console.log(`Swagger docs: https://get-youtube-subscribers-dtim.onrender.com/api-docs`);
 })
