@@ -53,7 +53,7 @@ node createDatabase.js
 6. Swagger API documentation
 
 ```swagger-URI
-   https://github.com/MahaboobJeelani/Get-YouTube-subscribers/api-docs
+   https://get-youtube-subscribers-dtim.onrender.com/api-docs
 ```
 - Go to any Browser and search localhost:3000
 
