@@ -6,11 +6,11 @@ We have to create a backend api which will send the response in form of JSON, by
 
 The APIs provided by this application include the following:
 
-✅GET [http://localhost:3000/subscribers] - Response with an array of subscribers(an Object).
+✅GET [https://get-youtube-subscribers-dtim.onrender.com/subscribers] - Response with an array of subscribers(an Object).
 
-✅GET [http://localhost:3000/subscribers/names] - Response with an array of subscribers(an Object with only two fields name and subscribedChannel).
+✅GET [https://get-youtube-subscribers-dtim.onrender.com/subscribers/names] - Response with an array of subscribers(an Object with only two fields name and subscribedChannel).
 
-✅GET [http://localhost:3000/subscribers/:id] - Response with a subscriber*(an object)* with given id & Response with status code 400 and Error message({message: error.message}) if id does not match.
+✅GET [https://get-youtube-subscribers-dtim.onrender.com/subscribers/:id] - Response with a subscriber*(an object)* with given id & Response with status code 400 and Error message({message: error.message}) if id does not match.
 
 ## Prerequisites
 
