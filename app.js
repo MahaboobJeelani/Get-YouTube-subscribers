@@ -23,7 +23,7 @@ app.get("/subscribers", async (req, res) => {
 })
 
 
-//api to get all subscribers by name and subscribed channel || METHIOD GET
+//api to get all subscribers by name and subscribed channel || METHOD GET
 app.get("/subscribers/names", async (req, res) => {
   try {
     let subscribers = await Subscriber.find({}).select("name subscribedChannel");
